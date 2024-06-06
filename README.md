@@ -42,6 +42,7 @@ a posted message returns the uuid for the message and a location header to acces
             curl -i -H "Accept: application/json" http://$host:$port/v1/messages?uuid=$uuid
 ```
 
+setup for code changes
 ```
 cd existing_repo
 git remote add origin https://gitlab.clarkinc.biz/mgovernanti/burn_after_reading.git
